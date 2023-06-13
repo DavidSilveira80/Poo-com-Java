@@ -1,8 +1,8 @@
 package classes;
 
 public class Cliente {
-    String nome;
-    String profissao;
-    int idade;
+    private String nome;
+    private String profissao;
+    private int idade;
     Endereco endereco;
 }

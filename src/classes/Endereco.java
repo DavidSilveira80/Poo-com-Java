@@ -1,9 +1,9 @@
 package classes;
 
 public class Endereco {
-    String cidade;
-    String estado;
-    String logradouro;
-    int numero;
-    int cep;
+    private String cidade;
+    private String estado;
+    private String logradouro;
+    private int numero;
+    private int cep;
 }
