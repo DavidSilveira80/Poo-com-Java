@@ -18,4 +18,9 @@ public class Conta {
             return false;
         }
     }
+
+    public void transfere(double valor, Conta recebedor){
+        this.saldo -= valor;
+        recebedor.saldo += valor;
+    }
 }
